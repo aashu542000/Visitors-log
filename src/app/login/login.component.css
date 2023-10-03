@@ -1,0 +1,48 @@
+.container {
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden !important;
+  outline: 0;
+  width: 500px;
+  height: 250px;
+  min-height: inherit;
+  max-height: inherit;
+  }
+  .mat-dialog-content {
+  min-height: 35vh;
+  }
+
+:host {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+  }
+
+  .mat-form-field {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  mat-card-title,
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .error {
+    padding: 16px;
+    width: 300px;
+    color: white;
+    background-color: red;
+  }
+
+  .button {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+  }
+
+  .mat-typography{
+    height: 91%;
+  }

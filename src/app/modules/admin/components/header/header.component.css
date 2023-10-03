@@ -1,0 +1,11 @@
+.navbar-brand{
+    color: aquamarine;
+}
+.bdr{
+    border-radius:1rem 1rem red;
+    border: 3px solid red;
+    font-family: monospace;
+}
+.font{
+    font-size: 110%;
+}
